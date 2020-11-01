@@ -1,0 +1,23 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Чат</title>
+    <link rel="stylesheet" th:href="@{css/style.css}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css">
+    <meta name="theme-color" content="#362723">
+</head>
+<body>
+<div class="Chat">
+    <div class="Chat_MessageZone"></div>
+    <div class="Chat_InputZone">
+        <textarea placeholder="Type message..." class="Chat_Input"></textarea>
+        <div class="Chat_Button">
+            <div class="btn_text">SEND</div>
+        </div>
+    </div>
+</div>
+<script th:src="@{js/script.js}"></script>
+</body>
+</html>
